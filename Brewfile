@@ -16,18 +16,22 @@ brew "just"
 brew "libomp"
 # Apple Silicon Monitor Top written in Golang
 brew "mactop"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
 # Command-line interface for SQLite
 brew "sqlite"
 # Platform built on V8 to build network applications
 brew "node"
+# CLI for Node.js style checker and lint tool for Markdown files
+brew "markdownlint-cli"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Create, run, and share large language models (LLMs)
 brew "ollama"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit", link: false
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
@@ -66,23 +70,3 @@ cask "spotify"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
-vscode "esbenp.prettier-vscode"
-vscode "github.codespaces"
-vscode "github.copilot"
-vscode "github.copilot-chat"
-vscode "mechatroner.rainbow-csv"
-vscode "mhutchie.git-graph"
-vscode "ms-python.debugpy"
-vscode "ms-python.isort"
-vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "ms-python.vscode-python-envs"
-vscode "ms-toolsai.jupyter"
-vscode "ms-toolsai.jupyter-keymap"
-vscode "ms-toolsai.jupyter-renderers"
-vscode "ms-toolsai.vscode-jupyter-cell-tags"
-vscode "ms-toolsai.vscode-jupyter-slideshow"
-vscode "ms-vscode-remote.remote-containers"
-vscode "skellock.just"
-vscode "tamasfe.even-better-toml"
-vscode "vscodevim.vim"

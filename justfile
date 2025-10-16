@@ -1,5 +1,8 @@
 default:
-  just -g --list
+	just --list
 
-start_notebook:
-  uv run --with jupyter jupyter notebook
+update_brewfile:
+	brew bundle dump --no-vscode -f --describe
+
+check_brewfile:
+	brew bundle check
