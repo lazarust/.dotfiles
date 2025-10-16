@@ -5,6 +5,6 @@ ln -s ./.tmux.conf ~/.tmux.conf
 ln -s ./.zshrc ~/.zshrc
 
 mkdir ~/.config/just/
-ln -s ./justfile ~/.config/just/justfile
+ln -s ./justfile.global ~/.config/just/justfile
 
 brew bundle
