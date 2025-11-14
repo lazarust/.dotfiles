@@ -88,3 +88,4 @@ autoload -Uz compinit
 compinit
 # End of Docker CLI completions
 
+source /Users/lazarust/.config/op/plugins.sh

@@ -1,5 +1,6 @@
 tap "osx-cross/arm"
 tap "osx-cross/avr"
+tap "oven-sh/bun"
 tap "qmk/qmk"
 tap "sst/tap"
 # Collection of portable C++ source libraries
@@ -18,7 +19,7 @@ brew "libomp"
 brew "mactop"
 # Command-line interface for SQLite
 brew "sqlite"
-# Platform built on V8 to build network applications
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # CLI for Node.js style checker and lint tool for Markdown files
 brew "markdownlint-cli"
@@ -26,10 +27,10 @@ brew "markdownlint-cli"
 brew "neovim"
 # Create, run, and share large language models (LLMs)
 brew "ollama"
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
-# Framework for managing multi-language pre-commit hooks
-brew "pre-commit", link: false
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Terminal multiplexer
@@ -38,6 +39,8 @@ brew "tmux"
 brew "tree"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun"
 # The AI coding agent built for the terminal.
 brew "sst/tap/opencode"
 # Password manager that keeps all passwords secure behind one password
@@ -48,6 +51,7 @@ cask "claude"
 cask "discord"
 # Web browser
 cask "firefox"
+cask "font-roboto-mono-nerd-font"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # ZSA keyboard firmware flasher
