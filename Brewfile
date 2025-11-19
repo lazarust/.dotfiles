@@ -70,7 +70,3 @@ cask "qmk-toolbox"
 cask "raycast"
 # Music streaming service
 cask "spotify"
-# Open-source code editor
-cask "visual-studio-code"
-# Video communication and virtual meeting platform
-cask "zoom"
