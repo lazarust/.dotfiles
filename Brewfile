@@ -15,7 +15,7 @@ brew "jj"
 brew "just"
 # LLVM's OpenMP runtime library
 brew "libomp"
-# Apple Silicon Monitor Top written in Golang
+# Apple Silicon Monitor Top written in Go Lang
 brew "mactop"
 # Command-line interface for SQLite
 brew "sqlite"
@@ -52,6 +52,8 @@ cask "discord"
 # Web browser
 cask "firefox"
 cask "font-roboto-mono-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # ZSA keyboard firmware flasher

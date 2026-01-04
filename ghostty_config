@@ -1,0 +1,9 @@
+theme = TokyoNight Night
+
+font-family = "RobotoMono Nerd Font Mono"
+font-size = 17
+
+cursor-style = "block"
+shell-integration-features = no-cursor
+
+confirm-close-surface = false
