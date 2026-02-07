@@ -7,3 +7,7 @@ cursor-style = "block"
 shell-integration-features = no-cursor
 
 confirm-close-surface = false
+
+macos-icon = xray
+
+mouse-hide-while-typing = true
