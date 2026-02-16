@@ -24,6 +24,10 @@ echo "  Setting up opencode config..."
 mkdir ~/.config/opencode/
 ln -s ./.config/opencode/opencode.json ~/.config/opencode/opencode.json
 
+echo "  Setting up lazygit config..."
+mkdir ~/.config/lazygit/
+ln -s ./.config/lazygit/config.yml ~/.config/lazygit/config.yml
+
 echo "  Running brew bundle..."
 brew bundle
 

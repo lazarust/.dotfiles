@@ -13,6 +13,8 @@ brew "gh"
 brew "jj"
 # Handy way to save and run project-specific commands
 brew "just"
+# Simple terminal UI for git commands
+brew "lazygit"
 # LLVM's OpenMP runtime library
 brew "libomp"
 # Apple Silicon Monitor Top written in Go Lang
