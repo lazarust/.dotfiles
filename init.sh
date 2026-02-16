@@ -10,19 +10,19 @@ ln -s ./.zshrc ~/.zshrc
 
 echo "  Setting up Ghostty"
 mkdir ~/.config/ghostty/
-ln -s ./ghostty_config ~/.config/ghostty/config
+ln -s ./.config/ghostty/config ~/.config/ghostty/config
 
 echo "  Setting up just config..."
 mkdir ~/.config/just/
-ln -s ./justfile.global ~/.config/just/justfile
+ln -s ./.config/just/justfile ~/.config/just/justfile
 
 echo "  Setting up global .gitignore..."
 mkdir ~/.config/git/
-ln -s ./.global_gitignore ~/.config/git/ignore
+ln -s ./.config/git/ignore ~/.config/git/ignore
 
 echo "  Setting up opencode config..."
 mkdir ~/.config/opencode/
-ln -s ./opencode.json ~/.config/opencode/opencode.json
+ln -s ./.config/opencode/opencode.json ~/.config/opencode/opencode.json
 
 echo "  Running brew bundle..."
 brew bundle
