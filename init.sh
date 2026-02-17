@@ -1,32 +1,41 @@
 #!/bin/bash
+set -euo pipefail
+
+trap 'echo "Error: command failed: $BASH_COMMAND" >&2' ERR
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+link() {
+  local src="$1"
+  local dst="$2"
+
+  mkdir -p "$(dirname "$dst")"
+  ln -sfn "$src" "$dst"
+  echo "  Linked $dst -> $src"
+}
 
 echo "Starting initialization script..."
 
 echo "  Linking .tmux.conf..."
-ln -s ./.tmux.conf ~/.tmux.conf
+link "$SCRIPT_DIR/.tmux.conf" "$HOME/.tmux.conf"
 
 echo "  Linking .zshrc..."
-ln -s ./.zshrc ~/.zshrc
+link "$SCRIPT_DIR/.zshrc" "$HOME/.zshrc"
 
 echo "  Setting up Ghostty"
-mkdir ~/.config/ghostty/
-ln -s ./.config/ghostty/config ~/.config/ghostty/config
+link "$SCRIPT_DIR/.config/ghostty/config" "$HOME/.config/ghostty/config"
 
 echo "  Setting up just config..."
-mkdir ~/.config/just/
-ln -s ./.config/just/justfile ~/.config/just/justfile
+link "$SCRIPT_DIR/.config/just/justfile" "$HOME/.config/just/justfile"
 
 echo "  Setting up global .gitignore..."
-mkdir ~/.config/git/
-ln -s ./.config/git/ignore ~/.config/git/ignore
+link "$SCRIPT_DIR/.config/git/ignore" "$HOME/.config/git/ignore"
 
 echo "  Setting up opencode config..."
-mkdir ~/.config/opencode/
-ln -s ./.config/opencode/opencode.json ~/.config/opencode/opencode.json
+link "$SCRIPT_DIR/.config/opencode/opencode.json" "$HOME/.config/opencode/opencode.json"
 
 echo "  Setting up lazygit config..."
-mkdir ~/.config/lazygit/
-ln -s ./.config/lazygit/config.yml ~/.config/lazygit/config.yml
+link "$SCRIPT_DIR/.config/lazygit/config.yml" "$HOME/.config/lazygit/config.yml"
 
 echo "  Running brew bundle..."
 brew bundle
