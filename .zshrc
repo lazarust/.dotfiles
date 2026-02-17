@@ -89,3 +89,5 @@ compinit
 # End of Docker CLI completions
 
 source /Users/lazarust/.config/op/plugins.sh
+
+alias lg="lazygit -ucf $HOME/.config/lazygit/config.yml"
