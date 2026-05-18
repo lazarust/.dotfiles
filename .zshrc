@@ -28,11 +28,10 @@ source $HOME/.local/bin/env
 export EDITOR='nvim'
 
 # Git Aliases
-alias gh=github
 alias gx=gitx
 alias gd='git diff'
 alias grb='git rebase --rebase-merges=rebase-cousins'
-
+alias gh='gh'
 # Docker Clean Containers - Removes all stopped containers
 alias dcc='docker rm $(docker ps -a -q)'
 

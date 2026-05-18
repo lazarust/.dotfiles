@@ -198,4 +198,4 @@ customCommands:
     context: "commits"
 services: {}
 notARepository: skip
-promptToReturnFromSubprocess: true
+promptToReturnFromSubprocess: false
