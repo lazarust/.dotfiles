@@ -1,3 +1,4 @@
+tap "anomalyco/tap"
 tap "osx-cross/arm"
 tap "osx-cross/avr"
 tap "oven-sh/bun"
@@ -19,16 +20,12 @@ brew "lazygit"
 brew "libomp"
 # Apple Silicon Monitor Top written in Go Lang
 brew "mactop"
-# Command-line interface for SQLite
-brew "sqlite"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # CLI for Node.js style checker and lint tool for Markdown files
 brew "markdownlint-cli"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Create, run, and share large language models (LLMs)
-brew "ollama"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Interpreted, interactive, object-oriented programming language
@@ -37,18 +34,14 @@ brew "python@3.13"
 brew "ripgrep"
 # Terminal multiplexer
 brew "tmux"
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
 # UNIX shell (command interpreter)
 brew "zsh"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
-# The AI coding agent built for the terminal.
-brew "sst/tap/opencode"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Anthropic's official Claude AI desktop app
-cask "claude"
 # Voice and text chat software
 cask "discord"
 # Web browser
