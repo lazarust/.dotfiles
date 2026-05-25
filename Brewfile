@@ -65,5 +65,3 @@ cask "obsidian"
 cask "qmk-toolbox"
 # Control your tools with a few keystrokes
 cask "raycast"
-# Music streaming service
-cask "spotify"
