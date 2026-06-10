@@ -1,15 +1,13 @@
 tap "anomalyco/tap"
-tap "osx-cross/arm"
-tap "osx-cross/avr"
 tap "oven-sh/bun"
-tap "qmk/qmk"
-tap "sst/tap"
 # Collection of portable C++ source libraries
 brew "boost"
 # Object-file caching compiler wrapper
 brew "ccache"
 # GitHub command-line tool
 brew "gh"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Git-compatible distributed version control system
 brew "jj"
 # Handy way to save and run project-specific commands
@@ -61,7 +59,5 @@ cask "lm-studio"
 cask "mullvad-vpn"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Toolbox companion for QMK Firmware
-cask "qmk-toolbox"
 # Control your tools with a few keystrokes
 cask "raycast"
