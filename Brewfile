@@ -26,8 +26,6 @@ brew "markdownlint-cli"
 brew "neovim"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Terminal multiplexer
@@ -35,9 +33,9 @@ brew "tmux"
 # UNIX shell (command interpreter)
 brew "zsh"
 # The AI coding agent built for the terminal.
-brew "anomalyco/tap/opencode"
+brew "anomalyco/tap/opencode", trusted: true
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
-brew "oven-sh/bun/bun"
+brew "oven-sh/bun/bun", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Voice and text chat software
@@ -47,8 +45,6 @@ cask "firefox"
 cask "font-roboto-mono-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # ZSA keyboard firmware flasher
 cask "keymapp"
 # Free cross-platform office suite, fresh version
